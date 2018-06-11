@@ -1,0 +1,178 @@
+{
+  "contractName": "EventCashOut",
+  "abi": [
+    {
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "fallback"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3006080604052348015600f57600080fd5b500000a165627a7a72305820a0756a4b849396f1f845bc714e2e052e1780495bf294b50a1f0a1cb77932f4cb0029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b500000a165627a7a72305820a0756a4b849396f1f845bc714e2e052e1780495bf294b50a1f0a1cb77932f4cb0029",
+  "sourceMap": "24:95:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:95:0;;;;;;;",
+  "deployedSourceMap": "24:95:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:95:0;",
+  "source": "pragma solidity 0.4.24;\ncontract EventCashOut {\n\n    //public or external? -- TODO\n    function () public {\n\n    }\n  \n}",
+  "sourcePath": "/Users/federico/code/apps/nonprofit/AV/event_cash_out/code/contracts/EventCashOut.sol",
+  "ast": {
+    "absolutePath": "/Users/federico/code/apps/nonprofit/AV/event_cash_out/code/contracts/EventCashOut.sol",
+    "exportedSymbols": {
+      "EventCashOut": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "EventCashOut",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "106:8:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "106:0:0"
+            },
+            "scope": 6,
+            "src": "87:27:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "24:95:0"
+      }
+    ],
+    "src": "0:119:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/federico/code/apps/nonprofit/AV/event_cash_out/code/contracts/EventCashOut.sol",
+    "exportedSymbols": {
+      "EventCashOut": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "EventCashOut",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "106:8:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "106:0:0"
+            },
+            "scope": 6,
+            "src": "87:27:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "24:95:0"
+      }
+    ],
+    "src": "0:119:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0x82d50ad3c1091866e258fd0f1a7cc9674609d254",
+      "transactionHash": "0x63cd611ca451e6a444e1def0f2c04c4cbe77c907246860be2d60def44740eb55"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-04T19:20:17.844Z"
+}
