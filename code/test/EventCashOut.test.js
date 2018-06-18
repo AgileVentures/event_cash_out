@@ -13,8 +13,9 @@ contract('1st EventCashOut test', async (accounts) => {
     web3.eth
     .sendTransaction({from: accounts[0], value: web3
       .toWei(1, "ether"), to: eco.address })
-    const expected_wei = 1000000000000000000
-    expect(await web3.eth.getBalance(eco.address).toNumber()).to.eq(expected_wei);
+    const expected_wei = web3.toWei(1, "ether") //1000000000000000000
+    expect(await web3.eth.getBalance(eco.address).toNumber()).to.eq(parseInt(expected_wei));
+    console.log(web3.eth.getBalance(eco.address).toNumber())
 
   });
 });
