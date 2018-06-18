@@ -5,5 +5,8 @@ contract EventCashOut {
     function () public payable {
 
     }
-  
+
+    function cashOut (address addressToPay) {
+      addressToPay.transfer(address(this).balance);
+    }
 }
