@@ -23,4 +23,10 @@ contract('EventCashOut receivable and payable tests', async (accounts) => {
   // Next steps
   // Hey, Stu look at this
   // Money can only be paid out to certain accounts
+
+  // it('can only pay to event attendees accounts', async () => {
+  //   const expected_wei = await web3.eth.getBalance(0x5aeda56215b167893e80b4fe645ba6d5bab768de).plus(web3.toWei(1, "ether")) //1000000000000000000
+  //   await eco.cashOut(0x5aeda56215b167893e80b4fe645ba6d5bab768de)
+  //   expect(await web3.eth.getBalance(0x5aeda56215b167893e80b4fe645ba6d5bab768de).toNumber()).to.eq(expected_wei.toNumber());
+  // });
 });
